@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  //   base: 'https://igor-ratajczak.github.io/game',
+  base: 'https://igor-ratajczak.github.io/game',
   plugins: [
     vue({
       ...templateCompilerOptions,
